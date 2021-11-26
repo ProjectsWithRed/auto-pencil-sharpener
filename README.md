@@ -56,11 +56,13 @@ Optional:
 
 ## Breadboard
 
-<img src="readme_imgs/breadboard.PNG">
+<img src="readme_imgs/breadboard_wiring.PNG">
+<img src="readme_imgs/breadboard_img.jpg">
 
 ## Stripboard
 
-Coming soon.
+<img src="readme_imgs/stripboard_wiring.png">
+<img src="readme_imgs/stripboard_img.JPG">
 
 
 # 3D printing
