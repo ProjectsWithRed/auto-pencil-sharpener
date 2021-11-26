@@ -56,7 +56,7 @@ Optional:
 
 ## Breadboard
 
-Coming soon.
+<img src="readme_imgs/breadboard.PNG">
 
 ## Stripboard
 
