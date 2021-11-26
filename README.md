@@ -1,6 +1,6 @@
 # Automatic pencil sharpener
 
-An automatic pencil sharpener machine that works using linear motion. You can sharpen any pencil just by pressing a button and it will take care of the rest, including gathernig up all the rubbish into a container.
+An automatic pencil sharpener machine that works using linear motion. You can sharpen any pencil just by pressing a button and it will take care of the rest, including gathering up all the rubbish into a container.
 
 There is a [video](https://youtu.be/7P9160cqDPM) associated with this repository/project, I highly recommend watching it before using this repo.
 
@@ -36,7 +36,7 @@ You can find the Arduino sketch in the `auto_pencil_sharpener` directory.
 # Components
 
 - `Attiny84`, for the micro-controller.
-- `Nema 17` stepper motor, for the linear motion.
+- `Nema 17` stepper motor, to drive the linear motion.
 - `A4988` stepper motor driver, with 100µF-1000µF capacitor across the motor power pins.
 - `12V` power supply, with at least 3A max rated current.
 - `LM2596` DC-DC step up/down converter, to convert 12V to 5V. 12V is required for the motors, 5V for the micro-controller.
@@ -46,6 +46,13 @@ You can find the Arduino sketch in the `auto_pencil_sharpener` directory.
 - `1N4004 Diode`, to be placed across the DC motor to prevent negative voltage spikes if the DC motor is rotated when the circuit is off.
 - `Sliding switch`, as an on and off switch.
 - `2 buttons`, to control the stepper motor, left and right controls.
+- `8mm L30cm lead screw`, for the linear motion.
+- `8mm L30cm smooth rod`, for the linear rail for the linear motion.
+- `Pillow block bearing`, for the lead screw.
+- `SCS8UU linear bearing`, for the smooth rod.
+- `SK8 rod support` (x2), for the smooth rod.
+- `D19L25 5x8mm flexible shaft coupling` (x2), one to attach lead screw to stepper motor and one to attach pencil to DC motor.
+
 
 Optional:
 - `Potentiometer`, this will be used to fine-tune the speed of the stepper motor, so it does not move too fast towards the sharpener.
